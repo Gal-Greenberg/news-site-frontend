@@ -1,0 +1,21 @@
+.header {
+    background: #0000CD ;
+    display: grid;
+    grid-template-columns: 80px 80px auto;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 4rem;
+    color: #F5F5F5;
+    text-align: right;
+    margin: 2rem;
+}
+
+.header__button {
+    font-size: 2rem;
+    text-align: left;
+    color: #0000CD;
+    background: #F5F5F5;
+    margin: 2rem;
+}

@@ -1,0 +1,16 @@
+.categories {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: right;
+    margin: 4rem;
+    width: 10rem;
+}
+
+.categories__button {
+    font-size: 2rem;
+    text-align: center;
+    width: 8rem;
+    color: #0000CD;
+    background: #F5F5F5;
+    margin: 1rem;
+}
