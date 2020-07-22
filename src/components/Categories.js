@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 export const Categories = () => (
     <div className="categories">
+        <Link to="/contentCreator">     
+            <button style={{width: "12rem"}} className="categories__button">יצירת כתבה</button>
+        </Link>
+
         <Link to="/news">     
             <button className="categories__button">חדשות</button>
         </Link>
